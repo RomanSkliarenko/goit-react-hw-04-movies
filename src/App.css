@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 5px;
+}
+.li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  margin: 5px;
+  outline: 1px solid black;
+}
+.li > img {
+  width: 200px;
+}
+.ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.filmContainer {
+  display: flex;
+  align-items: center;
+}
+.filmInfo {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-right: 150px;
+}
+.headerUl {
+  display: flex;
+  list-style: none;
+}
