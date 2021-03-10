@@ -4,16 +4,16 @@ import "./App.css";
 import Header from "./Components/header/Header";
 
 const HomeView = lazy(() =>
-  import("./views/Home" /* webpackChunkName: "home-view"*/)
+  import("./Views/Home" /* webpackChunkName: "home-view"*/)
 );
 const MovieDetails = lazy(() =>
-  import("./views/MovieDetails" /* webpackChunkName: "movieDetails"*/)
+  import("./Views/MovieDetails" /* webpackChunkName: "movieDetails"*/)
 );
 const Movies = lazy(() =>
-  import("./views/Movies" /* webpackChunkName: "movies"*/)
+  import("./Views/Movies" /* webpackChunkName: "movies"*/)
 );
 const Default = lazy(() =>
-  import("./views/Default" /* webpackChunkName: "default"*/)
+  import("./Views/Default" /* webpackChunkName: "default"*/)
 );
 
 function App() {
