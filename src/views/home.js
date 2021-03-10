@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import fetchService from "../FetchService/fetchService";
-import MovieList from "../Components/movieList/movieList";
+import fetchService from "../FetchService/FetchService";
+import MovieList from "../Components/movieList/MovieList";
 
 export default class Home extends Component {
   state = {

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import fetchService from "../../FetchService/fetchService";
+import fetchService from "../../FetchService/FetchService";
 import defaultImg from "../../Images/default.png";
 
 export default class cast extends Component {

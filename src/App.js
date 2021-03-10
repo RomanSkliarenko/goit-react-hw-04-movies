@@ -1,19 +1,19 @@
 import { Route, Switch } from "react-router-dom";
 import { Suspense, lazy } from "react";
 import "./App.css";
-import Header from "./Components/header/header";
+import Header from "./Components/header/Header";
 
 const HomeView = lazy(() =>
-  import("./views/home" /* webpackChunkName: "home-view"*/)
+  import("./views/Home" /* webpackChunkName: "home-view"*/)
 );
 const MovieDetails = lazy(() =>
-  import("./views/movieDetails" /* webpackChunkName: "movieDetails"*/)
+  import("./views/MovieDetails" /* webpackChunkName: "movieDetails"*/)
 );
 const Movies = lazy(() =>
-  import("./views/movies" /* webpackChunkName: "movies"*/)
+  import("./views/Movies" /* webpackChunkName: "movies"*/)
 );
 const Default = lazy(() =>
-  import("./views/default" /* webpackChunkName: "default"*/)
+  import("./views/Default" /* webpackChunkName: "default"*/)
 );
 
 function App() {

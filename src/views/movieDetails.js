@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { NavLink, Route } from "react-router-dom";
 import { v4 as uuidv4 } from "uuid";
-import Cast from "../Components/cast/cast";
-import Reviews from "../Components/reviews/reviews";
-import fetchService from "../FetchService/fetchService";
+import Cast from "../Components/cast/Cast";
+import Reviews from "../Components/reviews/Reviews";
+import fetchService from "../FetchService/FetchService";
 
 export default class MovieDetails extends Component {
   state = {

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import fetchService from "../../FetchService/fetchService";
+import fetchService from "../../FetchService/FetchService";
 
 export default class reviews extends Component {
   state = {
